@@ -49,9 +49,9 @@ end
 end
 
 def winner?(board)
-  if
+  if won?(board)
     return "X"
-  elsif
+  elsif full?(board)
     return "O"
   else
     return nil
