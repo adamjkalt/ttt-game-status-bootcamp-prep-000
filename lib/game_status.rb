@@ -49,4 +49,12 @@ end
 end
 
 def winner?(board)
+  if 
+    return "X"
+  elsif 
+    return "O"
+  else
+    return nil
+  end
+end
 end
