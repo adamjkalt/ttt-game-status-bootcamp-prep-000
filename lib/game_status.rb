@@ -53,7 +53,7 @@ def winner?(board)
     return "X"
   elsif full?(board)
     return "O"
-  else
+  else draw?(board)
     return nil
   end
 end
